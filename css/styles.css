@@ -1,0 +1,250 @@
+/*
+DM5212 Scripting 1 Assignment 1
+Name: Alexander Liew   Admin No: 191755G   Date: 6/11/2020
+*/
+#first-scene{
+	position: relative;
+	height:250px;
+	width:300px;
+	overflow: hidden;
+	box-sizing: border-box;
+}
+.tree {
+	background-image: url(../img/Tree.svg);
+	background-size: 150px;
+	height: 200px;
+	width: 150px;
+	background-repeat: no-repeat;
+}
+.ball {
+	position: absolute;
+	border-radius: 100px;
+	background-size: 20px;
+	width: 20px;
+	height: 20px;
+}
+.out {
+	background: #be1e2d;
+}
+.in {
+	background: #ffde17;
+}
+.inn {
+	background: #fbb040;
+}
+.outt {
+	background: #1b75bc;
+}
+.b1 {
+	left: 80px;
+	top: 50px;
+}
+.b2 {
+	left: 50px;
+	top: 55px;
+}
+.b3 {
+	left: 96px;
+	top: 93px;
+}
+.b4 {
+	left: 66px;
+	top: 98px;
+}
+.b5 {
+	left: 36px;
+	top: 103px;
+}
+.b6 {
+	left: 110px;
+	top: 140px;
+}
+.b7 {
+	left: 80px;
+	top: 145px;
+}
+.b8 {
+	left: 50px;
+	top: 150px;
+}
+.b9 {
+	left: 20px;
+	top: 155px;
+}
+.table {
+	position: absolute;
+	background-image: url(../img/Table.svg);
+	background-repeat: no-repeat;
+	background-size: 160px;
+	height: 160px;
+	width: 160px;
+	top: 140px;
+	left: 140px;
+}
+#first-scene h2 {
+	font-family: lato;
+	font-size: medium;
+	color: white;
+	position: absolute;
+	top: 40px;
+	left: 150px;
+}
+#first-scene .presents {
+	position: absolute;
+	background-image: url(../img/Presents.svg);
+	height: 100px;
+	width: 100px;
+	top: 190px;
+	left: 30px;
+	background-repeat: no-repeat;
+}
+
+#second-scene {
+	position: relative;
+	background-color: #5564aa;
+	overflow: hidden;
+	height: 250px;
+	width: 300px;
+}
+.treeunder {
+	background-image: url(../img/Treeunder.svg);
+	background-size: 300px;
+	width: 300px;
+	height: 60px;
+	background-repeat: no-repeat;
+}
+#second-scene .present1 {
+	position: absolute;
+	background-image: url(../img/present1.svg);
+	height: 150px;
+	width: 150px;
+	top: 90px;
+	left: 70px;
+	background-repeat: no-repeat;
+}
+#second-scene .present2 {
+	position: absolute;
+	background-image: url(../img/present2.svg);
+	height: 150px;
+	width: 150px;
+	top: 65px;
+	left: 10px;
+	background-repeat: no-repeat;
+}
+#second-scene .present3 {
+	position: absolute;
+	background-image: url(../img/present3.svg);
+	height: 150px;
+	width: 150px;
+	top: 50px;
+	left: 160px;
+	background-repeat: no-repeat;
+}
+#second-scene h2 {
+	font-family: lato;
+	font-size: medium;
+	color: white;
+	position: absolute;
+	top: 2px;
+	left: 100px;
+}
+.BG {
+	background: #5564aa;
+	height: 250px;
+	width: 300px;
+}
+#third-scene1 {
+	position: relative;
+	overflow: hidden;
+}
+#third-scene1 .sonos1 {
+	position: absolute;
+	background-image: url(../img/FAVPNG_play-1-sonos-play-5-sonos-play-5-wireless-speaker_jwCqKYGY.png);
+	background-size: 150px;
+	height: 150px;
+	width: 150px;
+	background-repeat: no-repeat;
+	left: 70px;
+	top: 80px;
+}
+#third-scene2 {
+	position: relative;
+	overflow: hidden;
+}
+#third-scene2 .sonos2 {
+	position: absolute;
+	background-image: url(../img/FAVPNG_play-1-play-3-sonos-one-smart-speaker_Bpkyjg3K.png);
+	background-size: 150px;
+	height: 150px;
+	width: 150px;
+	background-repeat: no-repeat;
+	left: 70px;
+	top: 80px;
+}
+#third-scene3 {
+	position: relative;
+	overflow: hidden;
+}
+#third-scene3 .sonos3 {
+	position: absolute;
+	background-image: url(../img/FAVPNG_play-1-play-3-sonos-sub-subwoofer_M0bL43UH.png);
+	background-size: 150px;
+	height: 150px;
+	width: 150px;
+	background-repeat: no-repeat;
+	left: 70px;
+	top: 80px;
+}
+.third h2 {
+	position: absolute;
+	font-family: Lato;
+	font-size: medium;
+	color: white;
+	top: 20px;
+	left: 60px;
+}
+#last-scene {
+	position: relative;
+}
+#last-scene h2 {
+	position: absolute;
+	text-transform: uppercase;
+	text-align: center;
+	font-family: Serif;
+	color: white;
+	top: 40px;
+	font-size: large;
+	left: 60px;
+}
+.logo {
+	position: absolute;
+	background-image: url(../img/2173425.png);
+	background-size: 150px;
+	height: 30px;
+	width: 150px;
+	background-repeat: no-repeat;
+	top: 100px;
+	left: 70px;
+}
+.refresh {
+	position: absolute;
+	background-image: url(../img/replay.svg);
+	background-size: 30px;
+	height: 30px;
+	width: 30px;
+	background-repeat: no-repeat;
+	top: 160px;
+	left: 160px;
+	color: white;
+}
+.shop {
+	position: absolute;
+	background-image: url(../img/shopping-cart.svg);
+	background-size: 30px;
+	height: 30px;
+	width: 30px;
+	background-repeat: no-repeat;
+	top: 160px;
+	left: 100px;
+	color: white;
+}
